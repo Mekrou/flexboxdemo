@@ -22,3 +22,21 @@ h1 {
     width: 200px;
     height: 200px;
 }
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+
+main .sidebar {
+    background-color: blueviolet;
+    flex: 0 4 200px;
+}
+
+main .maincontent {
+    background-color: aquamarine;
+    flex: 1 1 600px;
+}
